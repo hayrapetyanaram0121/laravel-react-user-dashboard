@@ -11,11 +11,6 @@ Once done configuring please run:
 5. php artisan serve
 6. npm run dev
 
-DB dump file in the root folder ("dump-test-202311112159.sql")
-
-There is a test admin with email "bob@gmail.com" and password is "q1w2e3r4"
-You may use it for testing, or create a new admin for yourself.
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
