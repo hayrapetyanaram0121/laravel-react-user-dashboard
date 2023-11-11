@@ -1,0 +1,84 @@
+.user-list {
+    background-color: #ffffff;
+    color: #3c5c8c;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #3c5c8c;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3c5c8c;
+    color: #ffffff;
+  }
+
+  td:nth-child(2), td:nth-child(3) {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+    max-width: 200px;
+  }
+
+  th:nth-child(1), td:nth-child(1) {
+    width: 50px;
+  }
+
+  th:nth-child(4), td:nth-child(4) {
+    width: 175px;
+  }
+
+  th:nth-child(5), td:nth-child(5) {
+    width: 75px;
+  }
+
+  th:nth-child(6), td:nth-child(6) {
+    width: 100px;
+  }
+  
+  .actions {
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+
+  .total-users-line {
+    float: right;
+    margin: 5px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    th:nth-child(4), td:nth-child(4) {
+      display: none;
+    }
+
+    td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+      max-width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 505px) {
+    th:nth-child(6), td:nth-child(6) {
+      width: 63px;
+    }
+
+    td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+      max-width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    th:nth-child(3), td:nth-child(3) {
+      display: none;
+    }
+  }

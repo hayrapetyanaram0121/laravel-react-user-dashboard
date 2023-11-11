@@ -1,0 +1,18 @@
+.not-found {
+  background-color: #ffffff;
+  color: #3c5c8c;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.not-found h2 {
+  margin-bottom: 10px;
+}
+
+.not-found p {
+  margin-bottom: 20px;
+}

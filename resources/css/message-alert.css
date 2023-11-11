@@ -1,0 +1,34 @@
+.message-alert {
+    background-color: #2a436be0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #ffffff solid;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    left: 97%;
+    min-width: 300px;
+    transform: translateX(-100%);
+    animation: fadeIn 0.3s;
+  }
+  
+  .message-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .message-text {
+    color: #ffffff;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
